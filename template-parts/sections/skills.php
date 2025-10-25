@@ -2,20 +2,33 @@
 // Навыки можно вынести в настройки темы или оставить статичными
 $skills = array(
     array(
-        'name' => 'PHP',
-        'level' => 'Продвинутый',
-        'level_percent' => 90,
+        'name' => 'Java',
+        'level' => 'Средний',
+        'level_percent' => 60,
         'experience' => '2 года',
         'projects_count' => 8
     ),
     array(
-        'name' => 'Laravel',
-        'level' => 'Продвинутый',
-        'level_percent' => 85,
-        'experience' => '1.5 года',
-        'projects_count' => 6
+        'name' => 'Kotlin',
+        'level' => 'Низкий',
+        'level_percent' => 30,
+        'experience' => '0.5 года',
+        'projects_count' => 3
     ),
-    // ... остальные навыки из вашего исходного кода
+    [
+        'name' => 'MySQL',
+        'level' => 'Среднего',
+        'level_percent' => 57,
+        'experience' => '2 года',
+        'projects_count' => 3
+    ],
+    [
+        'name' => 'Git/Docker',
+        'level' => 'Средний',
+        'level_percent' => 46,
+        'experience' => '1.5 года',
+        'projects_count' => 5
+    ]
 );
 ?>
 
@@ -55,28 +68,27 @@ $skills = array(
 
             <!-- Технологический стек -->
             <div class="tech-stack">
-                <h3>Технологический стек</h3>
+                <h3>Технологический стек Android</h3>
                 <div class="tech-categories">
                     <div class="tech-category">
-                        <h4>Backend</h4>
+                        <h4>Java</h4>
                         <div class="tech-icons">
-                            <div class="tech-icon">PHP</div>
-                            <div class="tech-icon">Laravel</div>
-                            <div class="tech-icon">Node.js</div>
-                            <div class="tech-icon">MySQL</div>
-                            <div class="tech-icon">PostgreSQL</div>
-                            <div class="tech-icon">REST API</div>
+                            <div class="tech-icon">Room</div>
+                            <div class="tech-icon">Retrofit</div>
+                            <div class="tech-icon">Dagger Hilt</div>
+                            <div class="tech-icon">FireBase</div>
+                            <div class="tech-icon">XML</div>
+                            <div class="tech-icon">RxJava</div>
                         </div>
                     </div>
                     <div class="tech-category">
-                        <h4>Frontend</h4>
+                        <h4>Kotlin</h4>
                         <div class="tech-icons">
-                            <div class="tech-icon">JavaScript</div>
-                            <div class="tech-icon">React</div>
-                            <div class="tech-icon">Vue.js</div>
-                            <div class="tech-icon">HTML5</div>
-                            <div class="tech-icon">CSS3</div>
-                            <div class="tech-icon">TypeScript</div>
+                            <div class="tech-icon">Room</div>
+                            <div class="tech-icon">Jetpack Compose</div>
+                            <div class="tech-icon">Coroutines</div>
+                            <div class="tech-icon">SharedPreferences</div>
+                            <div class="tech-icon">Dagger Hilt</div>
                         </div>
                     </div>
                     <div class="tech-category">
@@ -84,9 +96,6 @@ $skills = array(
                         <div class="tech-icons">
                             <div class="tech-icon">Git</div>
                             <div class="tech-icon">Docker</div>
-                            <div class="tech-icon">Webpack</div>
-                            <div class="tech-icon">Composer</div>
-                            <div class="tech-icon">NPM</div>
                             <div class="tech-icon">Linux</div>
                         </div>
                     </div>

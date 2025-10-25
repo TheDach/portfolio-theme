@@ -1,7 +1,7 @@
 <?php
-$developer_email = get_theme_mod('developer_email', 'ivan.ivanov@example.com');
-$developer_phone = get_theme_mod('developer_phone', '+7 (999) 123-45-67');
-$developer_location = get_theme_mod('developer_location', 'Санкт-Петербург, Россия');
+$developer_email = get_theme_mod('developer_email', 'vlad.deys@mail.ru');
+$developer_phone = get_theme_mod('developer_phone', '+7 (983) 219-19-14');
+$developer_location = get_theme_mod('developer_location', 'Томск, Россия');
 
 $message_sent = false;
 $errors = array();
